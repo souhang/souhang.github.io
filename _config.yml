@@ -14,3 +14,6 @@ show_downloads: false
 
 # Markdown
 markdown: kramdown
+
+# image
+logo: /assets/img/profile.jpg
