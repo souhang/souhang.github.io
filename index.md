@@ -3,12 +3,6 @@ layout: default
 title: Hang Su
 ---
 
-# Hang Su
-
-### Theoretical Condensed Matter Physics
-
----
-
 ## About Me
 
 I am Hang Su, a theoretical physicist working on
