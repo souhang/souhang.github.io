@@ -1,0 +1,16 @@
+# Site settings
+title: Hang Su
+description: Theoretical Condensed Matter Physics
+
+# GitHub Pages theme
+theme: jekyll-theme-minimal
+
+# Site information
+url: "https://souhang.github.io"
+baseurl: ""
+
+# Theme settings
+show_downloads: false
+
+# Markdown
+markdown: kramdown
