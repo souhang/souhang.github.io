@@ -56,7 +56,7 @@ Zhiyuan Honor College, Shanghai Jiao Tong University
   Exact Quantization of Topological Order Parameter in SU(<i>N</i>) Spin Models, <i>N</i>-ality Transformation and Ingappabilities  
   [*Phys. Rev. Lett.* **133**, 266705 (2024)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.266705); [arXiv:2406.05407](https://arxiv.org/abs/2406.05407)
 
-- Emmanouil Grigoriou<sup>&#42;</sup>, Zhiyao Ning<sup>&#42;</sup>, <strong>Hang Su</strong>, Benjamin Löckler, Ming Li, Yoshitomo Kamiya<sup>†</sup>, Carlos Navarrete-Benlloch<sup>†</sup> 
+- Emmanouil Grigoriou<sup>&#42;</sup>, Zhiyao Ning<sup>&#42;</sup>, <strong>Hang Su</strong>, Benjamin Löckler, Ming Li, Yoshitomo Kamiya<sup>†</sup>, Carlos Navarrete-Benlloch<sup>†</sup>
   Coherent Pair Injection as a Route Towards the Enhancement of Supersolid Order in Many-Body Bosonic Models  
   [*Phys. Rev. A* **109**, 063324 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.063324); [arXiv:2312.03624](https://arxiv.org/abs/2312.03624)
 
