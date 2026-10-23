@@ -27,7 +27,7 @@ open quantum systems, and quantum transport.
 
 ## Education
 
-**Post-Doctoral Fellow (2026-present)
+**Post-Doctoral Fellow** (2026-present)
 King Fahd University of Petroleum and Minerals (KFUPM)
 Advisor: Prof. Daniel Loss & Ji Zou
 
