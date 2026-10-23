@@ -27,12 +27,16 @@ open quantum systems, and quantum transport.
 
 ## Education
 
+**Post-Doctoral Fellow (2026-present)
+King Fahd University of Petroleum and Minerals (KFUPM)
+Advisor: Prof. Daniel Loss & Ji Zou
+
 **Ph.D. in Physics** (2020–2026)  
-Shanghai Jiao Tong University  
+School of Physics and Astronomy, Shanghai Jiao Tong University (SJTU)
 Advisor: Prof. Yuan Yao
 
 **B.S. in Physics** (2015–2020)  
-Zhiyuan Honor College, Shanghai Jiao Tong University
+Zhiyuan Honor College, SJTU
 
 ---
 
