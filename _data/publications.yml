@@ -1,0 +1,53 @@
+- year: 2024
+  authors: 'Emmanouil Grigoriou<sup>&#42;</sup>, Zhiyao Ning<sup>&#42;</sup>, <strong>Hang Su</strong>, Benjamin Löckler, Ming Li, Yoshitomo Kamiya<sup>†</sup>, Carlos Navarrete-Benlloch<sup>†</sup>'
+  title: 'Coherent Pair Injection as a Route Towards the Enhancement of Supersolid Order in Many-Body Bosonic Models'
+  journal: 'Phys. Rev. A'
+  volume: '109'
+  article: '063324'
+  url: 'https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.063324'
+  arxiv: '2312.03624'
+
+- year: 2024
+  authors: '<strong>Hang Su</strong>, Yuan Yao<sup>†</sup>, Akira Furusaki'
+  title: 'Exact Quantization of Topological Order Parameter in SU(<i>N</i>) Spin Models, <i>N</i>-ality Transformation and Ingappabilities'
+  journal: 'Phys. Rev. Lett.'
+  volume: '133'
+  article: '266705'
+  url: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.266705'
+  arxiv: '2406.05407'
+
+- year: 2025
+  authors: '<strong>Hang Su</strong>, Tengzhou Zhang, Yuan Yao<sup>†</sup>, Akira Furusaki'
+  title: 'Identification of Gapless Phases by Twisting Operator'
+  journal: 'Phys. Rev. Lett.'
+  volume: '135'
+  article: '146502'
+  url: 'https://journals.aps.org/prl/abstract/10.1103/29j7-ltfn'
+  arxiv: '2506.02496'
+
+- year: 2025
+  authors: 'Tianwei Ouyang<sup>&#42;</sup>, <strong>Hang Su</strong><sup>&#42;</sup>, Wanning Zhang, Yingying Duan, Yuxi Fang<sup>†</sup>, Shunai Che<sup>†</sup>, Yizhou Liu<sup>†</sup>'
+  title: 'Photomagnetic-Chiral Anisotropy Mediated by Chirality-Driven Asymmetric Spin Splitting'
+  journal: 'Phys. Rev. Lett.'
+  volume: '135'
+  article: '166903'
+  url: 'https://journals.aps.org/prl/abstract/10.1103/llys-8b4p'
+  arxiv: '2506.13696'
+
+- year: 2026
+  authors: 'Tianwei Ouyang, <strong>Hang Su</strong>, Shunai Che<sup>†</sup>, Yuxi Fang<sup>†</sup>'
+  title: 'First-principles insight into helical distortion in chiral WSe<sub>2</sub> for promoting C–C coupling in CO<sub>2</sub> reduction'
+  journal: 'Nano Research'
+  volume: '19'
+  article: '94908369'
+  url: 'https://www.sciopen.com/article/10.26599/NR.2026.94908369'
+
+- year: 2026
+  authors: 'Hao Cheng, <strong>Hang Su</strong>, Yuan Yao<sup>†</sup>'
+  title: 'Twisting-Operator Approach to Identifying Gaplessness in SU(<i>N</i>) Fermionic Systems'
+  arxiv: '2607.19694'
+
+- year: 2026
+  authors: 'Boliang Yu<sup>†</sup>, Ruixin Zhou, <strong>Hang Su</strong>'
+  title: 'Observable Dependence and Rate Identifiability in False-Vacuum Decay of the Quantum Ising Chain'
+  arxiv: '2608.11339'
