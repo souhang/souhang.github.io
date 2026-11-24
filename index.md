@@ -42,32 +42,28 @@ Zhiyuan Honor College, SJTU
 
 ## Publications
 
-- Boliang Yu<sup>†</sup>, Ruixin Zhou, **Hang Su**  
-  Observable Dependence and Rate Identifiability in False-Vacuum Decay of the Quantum Ising Chain  
-  [arXiv:2608.11339](https://arxiv.org/abs/2608.11339) (2026)
-
-- Hao Cheng, **Hang Su**, Yuan Yao<sup>†</sup>  
-  Twisting-Operator Approach to Identifying Gaplessness in SU(<i>N</i>) Fermionic Systems  
-  [arXiv:2607.19694](https://arxiv.org/abs/2607.19694) (2026)
-
-- Tianwei Ouyang, **Hang Su**, Shunai Che<sup>†</sup>, Yuxi Fang<sup>†</sup>  
-  First-principles insight into helical distortion in chiral WSe₂ for promoting C–C coupling in CO₂ reduction  
-  [*Nano Research* **19**, 94908369 (2026)](https://www.sciopen.com/article/10.26599/NR.2026.94908369)
-
-- Tianwei Ouyang<sup>&#42;</sup>, <strong>Hang Su</strong><sup>&#42;</sup>, Wanning Zhang, Yingying Duan, Yuxi Fang<sup>†</sup>, Shunai Che<sup>†</sup>, Yizhou Liu<sup>†</sup>  
-  Photomagnetic-Chiral Anisotropy Mediated by Chirality-Driven Asymmetric Spin Splitting  
-  [*Phys. Rev. Lett.* **135**, 166903 (2025)](https://journals.aps.org/prl/abstract/10.1103/llys-8b4p); [arXiv:2506.13696](https://arxiv.org/abs/2506.13696)
-
-- **Hang Su**, Tengzhou Zhang, Yuan Yao<sup>†</sup>, Akira Furusaki  
-  Identification of Gapless Phases by Twisting Operator  
-  [*Phys. Rev. Lett.* **135**, 146502 (2025)](https://journals.aps.org/prl/abstract/10.1103/29j7-ltfn); [arXiv:2506.02496](https://arxiv.org/abs/2506.02496)
-
-- **Hang Su**, Yuan Yao<sup>†</sup>, Akira Furusaki  
-  Exact Quantization of Topological Order Parameter in SU(<i>N</i>) Spin Models, <i>N</i>-ality Transformation and Ingappabilities  
-  [*Phys. Rev. Lett.* **133**, 266705 (2024)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.266705); [arXiv:2406.05407](https://arxiv.org/abs/2406.05407)
-
-- Emmanouil Grigoriou<sup>&#42;</sup>, Zhiyao Ning<sup>&#42;</sup>, <strong>Hang Su</strong>, Benjamin Löckler, Ming Li, Yoshitomo Kamiya<sup>†</sup>, Carlos Navarrete-Benlloch<sup>†</sup>  
-  Coherent Pair Injection as a Route Towards the Enhancement of Supersolid Order in Many-Body Bosonic Models  
-  [*Phys. Rev. A* **109**, 063324 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.063324); [arXiv:2312.03624](https://arxiv.org/abs/2312.03624)
-
-<small>* Equal contribution.</small>, <small>† Corresponding authors.</small>
+<div class="publications" markdown="0">
+{% assign previous_year = "" %}
+{% for paper in site.data.publications reversed %}
+{% if paper.year != previous_year %}
+<h3 style="margin-top: 22px; margin-bottom: 12px; padding-bottom: 5px; border-bottom: 1px solid #e5e5e5;">
+  {{ paper.year }}
+</h3>
+{% assign previous_year = paper.year %}
+{% endif %}
+<div style="display: grid; grid-template-columns: 2.2em minmax(0, 1fr); gap: 4px; margin-bottom: 12px; line-height: 1.5;">
+  <div>[{{ forloop.rindex }}]</div>
+  <div>
+    {{ paper.authors }}<br>
+    {{ paper.title }}<br>
+    {% if paper.journal %}
+    <a href="{{ paper.url }}"><i>{{ paper.journal }}</i> <strong>{{ paper.volume }}</strong>, {{ paper.article }} ({{ paper.year }})</a>{% if paper.arxiv %}; {% endif %}
+    {% endif %}
+    {% if paper.arxiv %}
+    <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>{% unless paper.journal %} ({{ paper.year }}){% endunless %}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+<small>&#42; Equal contribution. † Corresponding authors.</small>
+</div>
