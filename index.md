@@ -5,7 +5,7 @@ title: Hang Su
 
 ## About Me
 
-My name is Hang Su. I was born in Hunan, China, in 1998 and grew up
+My name is Hang Su. I was born in Hunan, China, in July 1998 and grew up
 in Guangdong. I received my Ph.D. in Physics from Shanghai Jiao Tong
 University in June 2026, under the supervision of Prof. Yuan Yao.
 
