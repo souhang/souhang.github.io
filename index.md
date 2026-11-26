@@ -74,7 +74,7 @@ Zhiyuan Honor College, SJTU
     {% if paper.type == "patent" %}
 
       {% if paper.url %}<a href="{{ paper.url }}">{% endif %}
-      <i>{{ paper.journal }}</i>{% if paper.article %}, {{ paper.article }}{% endif %} ({{ paper.year }})
+      <i>{{ paper.journal }}</i>{% if paper.article %}, {{ paper.article }}{% endif %}{% if paper.date %} ({{ paper.date }}){% endif %}
       {% if paper.url %}</a>{% endif %}
 
     {% else %}
