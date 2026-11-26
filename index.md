@@ -44,26 +44,56 @@ Zhiyuan Honor College, SJTU
 
 <div class="publications" markdown="0">
 {% assign previous_year = "" %}
+{% assign manual_number_count = site.data.publications | where_exp: "paper", "paper.number != nil" | size %}
+{% assign auto_number = site.data.publications.size | minus: manual_number_count %}
+
 {% for paper in site.data.publications reversed %}
+
 {% if paper.year != previous_year %}
 <h3 style="margin-top: 22px; margin-bottom: 12px; padding-bottom: 5px; border-bottom: 1px solid #e5e5e5;">
   {{ paper.year }}
 </h3>
 {% assign previous_year = paper.year %}
 {% endif %}
+
 <div style="display: grid; grid-template-columns: 2.2em minmax(0, 1fr); gap: 4px; margin-bottom: 12px; line-height: 1.5;">
-  <div>[{{ forloop.rindex }}]</div>
+
+  <div>
+    {% if paper.number != nil %}
+      [{{ paper.number }}]
+    {% else %}
+      [{{ auto_number }}]
+      {% assign auto_number = auto_number | minus: 1 %}
+    {% endif %}
+  </div>
+
   <div>
     {{ paper.authors }}<br>
     {{ paper.title }}<br>
-    {% if paper.journal %}
-    <a href="{{ paper.url }}"><i>{{ paper.journal }}</i> <strong>{{ paper.volume }}</strong>, {{ paper.article }} ({{ paper.year }})</a>{% if paper.arxiv %}; {% endif %}
-    {% endif %}
-    {% if paper.arxiv %}
-    <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>{% unless paper.journal %} ({{ paper.year }}){% endunless %}
+
+    {% if paper.type == "patent" %}
+
+      {% if paper.url %}<a href="{{ paper.url }}">{% endif %}
+      <i>{{ paper.journal }}</i>{% if paper.article %}, {{ paper.article }}{% endif %} ({{ paper.year }})
+      {% if paper.url %}</a>{% endif %}
+
+    {% else %}
+
+      {% if paper.journal %}
+        {% if paper.url %}<a href="{{ paper.url }}">{% endif %}
+        <i>{{ paper.journal }}</i>{% if paper.volume %} <strong>{{ paper.volume }}</strong>{% endif %}{% if paper.article %}, {{ paper.article }}{% endif %} ({{ paper.year }})
+        {% if paper.url %}</a>{% endif %}{% if paper.arxiv %}; {% endif %}
+      {% endif %}
+
+      {% if paper.arxiv %}
+        <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>{% unless paper.journal %} ({{ paper.year }}){% endunless %}
+      {% endif %}
+
     {% endif %}
   </div>
+
 </div>
 {% endfor %}
+
 <small>&#42; Equal contribution. † Corresponding authors.</small>
 </div>
